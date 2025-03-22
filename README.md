@@ -1,2 +1,4 @@
 # CRUD-By-Django
-I am made a CRUD(Create, Read, Delete, Update) task with the help of Django.
+Auther :- Ritik kumar
+<br>
+In this code, CRUD performance is done with the help of the Most powerful Python framework Django.
