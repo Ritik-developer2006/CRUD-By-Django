@@ -1,0 +1,106 @@
+body{
+    background: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm1obmM3NHEweHg0dHhua3kydHNjcWpkbWc5eDAwNm5pY2wxbGpjbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7AtHoQ9XWbpwLRxs0t/giphy.gif) !important;
+    backdrop-filter: blur(2px);
+}
+label.error {
+    color: red;
+    padding-top: 9px;
+}
+
+#file-upload-error{
+    padding-top: 0px !important;
+}
+
+input.error,
+select.error,
+textarea.error {
+    border: 2px solid red !important;
+    filter: drop-shadow(0px 0px 3px red);
+}
+
+#gender-error {
+    position: absolute;
+    top: 15px;
+    width: 200px;
+}
+
+#sports-error {
+    position: absolute;
+    top: 15px;
+    width: 300px;
+}
+
+#termsCondition-error {
+    position: absolute;
+    top: 15px;
+    width: 300px;
+}
+
+.dt-length {
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.dt-search {
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.dt-info {
+    padding-left: 15px;
+}
+
+.dt-paging {
+    padding-right: 15px;
+}
+
+#students_wrapper>div:first-child {
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
+.dt-empty {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#students_wrapper>div:nth-child(3) {
+    border-top: 1px solid white;
+    margin-top: 0px;
+    padding-top: 15px;
+    align-items: center;
+}
+
+#dt-length-0 {
+    color: black;
+    width: 55px;
+    padding: 3px;
+    height: 35px;
+}
+
+#dt-search-0 {
+    color: black;
+    width: 150px;
+    padding: 10px;
+    height: 35px;
+}
+
+.pagination>a {
+    background-color: black !important;
+}
+
+tr>th {
+    font-weight: 700 !important;
+    color: white !important;
+}
+
+.closeModalEdit:focus-within,
+.closeModal:focus-within {
+    outline: 0px !important;
+}
+
+.closeModal:hover>i,
+.closeModalEdit:hover>i {
+    color: white !important;
+}
